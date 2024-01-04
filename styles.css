@@ -1,5 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
 
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  header, nav, main, footer {
+    padding: 10px;
+  }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header, nav, main, footer {
+    padding: 15px;
+  }
+}
+
+/* Laptop and larger styles */
+@media only screen and (min-width: 1024px) {
+  header, nav, main, footer {
+    padding: 20px;
+  }
+}
+
 * {
   background-color: #414141;
   box-sizing: border-box;
@@ -536,7 +557,7 @@ nav ul li a:hover {
 /* Contact Me Section Start  */
 .contactMeSection {
   width: 100%;
-  background-color: #e7e7e7;
+  background-color: #414141;
 }
 
 .container {
